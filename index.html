@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Will's Podcast</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Microphone_1.png">
+    <style>
+        
+    </style>
+</head>
+<body>
+	<header>
+        <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678057-microphone-64.png" height="48px">
+        <h1>Podcast Central</h1>
+        <span id="current-song"></span>
+      </header>      
+
+      <main>
+        <section class="player">
+          <div class="album-art">
+            <img class="coverArt" src="IMG_2230.jpg" height="280px">
+            <div class="stars">
+              <span class="star" data-value="1">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="5">&#9733;</span>
+            </div>
+          </div>
+          <h2>Latest Episode</h2>
+          <audio controls>
+            <source src="For Libby.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </section>
+      
+        <section class="schedule">
+          <h2>Library</h2>
+          <table>
+            <tr>
+              <th>Date</th>
+              <th>Episode</th>
+            </tr>
+            <tr>
+              <td>10/01/23</td>
+              <td>#222 Jeff Lakely</td>
+            </tr>
+            <tr>
+              <td>9/12/23</td>
+              <td>#221 Forest Lane</td>
+            </tr>
+            <tr>
+              <td>8/27/23</td>
+              <td>#220 Jeremy Ivor</td>
+            </tr>
+            <tr>
+              <td>8/15/23</td>
+              <td>#219 Kerwin Frost</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+	<footer>
+		<p>&copy; 2023 Will Burdge</p>
+	</footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+ **, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    }
+    
+    /* Header Styles */
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 16px;
+    }
+    
+    header img {
+    height: 48px;
+    }
+    
+    header h1 {
+    font-size: 28px;
+    margin-left: 16px;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    nav li:not(:last-child) {
+    margin-right: 16px;
+    }
+    
+    nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    padding: 8px;
+    }
+    
+    nav a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 4px;
+    }
+    
+    /* Main Styles */
+    main {
+    margin: 32px;
+    }
+
+    .coverArt {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+    
+    section {
+    margin-bottom: 32px;
+    }
+    
+    section h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    }
+    
+    audio {
+    width: 100%;
+    }
+    
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px;
+    }
+    
+    th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+    background-color: #333;
+    color: #f1f1f1;
+    }
+    
+    tr:hover {
+    background-color: #f1f1f1;
+    }
+
+    .stars {
+        display: flex;
+        margin-top: 10px;
+        user-select: none;
+      }
+      
+      .star {
+        cursor: pointer;
+        font-size: 30px;
+        color: #ccc;
+        margin-right: 5px;
+      }
+      
+      .star.filled {
+        color: gold;
+      }
+      
+    
+    /* Footer Styles */
+    footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 16px;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 14px;
+    margin: 0;
+    }
+    
+    /* Media Queries */
+    @media only screen and (max-width: 768px) {
+    header h1 {
+    font-size: 24px;
+    }
+    
+    nav li:not(:last-child) {
+    margin-right: 8px;
+    }
+    
+    nav a {
+    padding: 4px;
+    }
+    
+    main {
+    margin: 16px;
+    }
+    
+    section h2 {
+    font-size: 20px;
+    }
+    
+    audio {
+    max-width: 100%;
+    }
+    }
